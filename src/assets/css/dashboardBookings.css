@@ -1,0 +1,156 @@
+/*Dashboard upcoming bookings */
+.dashboard-upcoming-bookings {
+  width: 50%;
+
+  border: 1px solid #7bb518;
+  border-radius: 16px;
+
+  padding: 24px;
+
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.bookings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.bookings-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  color: #1f2937;
+
+  margin: 0;
+}
+
+.view-all {
+  color: #f97316;
+
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.view-all:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*  GRID LAYOUT */
+.bookings-grid {
+  display: grid;
+  grid-template-columns: 120px 1fr 80px 130px;
+
+  gap: 1px;
+
+  background: #f1f7e9;
+
+  border-radius: 12px;
+
+  overflow: hidden;
+  overflow-y: scroll;
+
+  height: 215px;
+}
+
+/* Header Styling */
+.grid-header {
+  background: transparent;
+
+  padding: 14px 16px;
+
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  font-size: 0.7rem;
+}
+
+.grid-row {
+  display: contents;
+}
+
+.grid-row > div {
+  display: flex;
+  align-items: center;
+
+  padding: 16px;
+
+  background: white;
+
+  color: #1f2937;
+  font-size: 0.9rem;
+}
+
+.grid-row:hover > div {
+  background: #f8fafc;
+  cursor: pointer;
+}
+
+.time {
+  font-weight: 500;
+  color: #334155;
+}
+
+.people {
+  justify-content: center;
+  font-weight: 500;
+}
+
+.status {
+  justify-content: center;
+}
+
+/* Status Badges */
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.pending {
+  background: #fcece3;
+  color: #fc6405;
+}
+
+.confirmed {
+  background: #e6f7eb;
+  color: #2cc74d;
+}
+
+.completed {
+  background: #eaf7d8;
+  color: #4d7c0f; /* matches your theme */
+}
+
+.cancelled {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+@media (max-width: 1024px) {
+  .bookings-grid {
+    grid-template-columns: 110px 1fr 70px 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-upcoming-bookings {
+    padding: 18px;
+  }
+
+  .bookings-grid {
+    grid-template-columns: 100px 1fr 60px 110px;
+    font-size: 0.9rem;
+  }
+}

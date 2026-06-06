@@ -1,0 +1,122 @@
+.dashboard-metric {
+  min-width: 260px;
+  max-width: 280px;
+  height: 145px;
+
+  padding: 1rem;
+  gap: 1.5rem;
+
+  background-color: transparent;
+
+  border-radius: 10px;
+  border: 1px solid #7bb518;
+}
+
+.dashboard-metric > .metric-image-container {
+  width: 60px;
+  height: 60px;
+
+  border-radius: 15px;
+}
+
+.metric-content h6 {
+  color: inherit;
+  text-overflow: hidden;
+  font-size: 0.9rem;
+}
+
+.metric-content > .metric-count {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.dashboard-metric.bookings > .metric-image-container {
+  background: #fcece3;
+}
+
+.dashboard-metric.bookings > .metric-image-container > i {
+  color: #fc6405;
+}
+
+.dashboard-metric.bookings > .metric-content > .metric-percentage {
+  color: #fc6405;
+}
+
+.dashboard-metric.orders > .metric-image-container {
+  background: #e6f7eb;
+}
+
+.dashboard-metric.orders > .metric-image-container > i {
+  color: #2cc74d;
+}
+
+.dashboard-metric.orders > .metric-content > .metric-percentage {
+  color: #2cc74d;
+}
+
+.dashboard-metric.customers > .metric-image-container {
+  background: #edf3ff;
+}
+
+.dashboard-metric.customers > .metric-image-container > i {
+  color: #1e67fa;
+}
+
+.dashboard-metric.customers > .metric-content > .metric-percentage {
+  color: #1e67fa;
+}
+
+.dashboard-metric.revenue > .metric-image-container {
+  background: #f5f0fc;
+}
+
+.dashboard-metric.revenue > .metric-image-container > i {
+  color: #8c45f7;
+}
+
+.dashboard-metric.revenue > .metric-content > .metric-percentage {
+  color: #8c45f7;
+}
+
+.dashboard-metric.pending-metric-bookings > .metric-image-container {
+  background: #fcece3;
+}
+
+.dashboard-metric.pending-metric-bookings > .metric-image-container > i {
+  color: #fc6405;
+}
+
+.dashboard-metric.pending-metric-bookings
+  > .metric-content
+  > .metric-percentage {
+  color: #fc6405;
+}
+
+.dashboard-metric.confirmed-metric-bookings > .metric-image-container {
+  background: #e6f7eb;
+}
+
+.dashboard-metric.confirmed-metric-bookings > .metric-image-container > i {
+  color: #2cc74d;
+}
+
+.dashboard-metric.confirmed-metric-bookings
+  > .metric-content
+  > .metric-percentage {
+  color: #2cc74d;
+}
+
+.dashboard-metric.cancelled-metric-bookings > .metric-image-container {
+  background: #fee2e2;
+}
+
+.dashboard-metric.cancelled-metric-bookings > .metric-image-container > i {
+  color: #dc2626;
+}
+
+.dashboard-metric.cancelled-metric-bookings
+  > .metric-content
+  > .metric-percentage {
+  color: #dc2626;
+}

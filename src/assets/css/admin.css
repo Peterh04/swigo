@@ -1,0 +1,61 @@
+.admin-page {
+  display: grid;
+
+  width: 100%;
+  height: 100vh;
+
+  min-height: 100vh;
+
+  background-color: white;
+
+  grid-template-columns: 280px 1fr;
+}
+
+.admin-page > .main-content {
+  background: transparent;
+}
+
+/* Dasboard Content*/
+.dashboard-content {
+  background-color: transparent;
+
+  height: 100%;
+  width: 100%;
+
+  gap: 1.3rem;
+
+  padding: 1rem 1.8rem;
+}
+
+.dashbord-content-header-intro > h4 {
+  color: #1c3b2d;
+}
+
+.dashbord-content-header-intro > p {
+  line-height: 10px;
+}
+
+.dashboard-content-header > .dashboard-timeline {
+  font-size: 0.9rem;
+
+  gap: 0.5rem;
+
+  padding: 0.3rem 1rem;
+
+  border-radius: 7px;
+  border: 1px solid #dee8d1;
+}
+
+.dashboard-timeline > i {
+  color: #89bd35;
+}
+
+.dashboard-timeline:hover {
+  cursor: pointer;
+}
+
+/*Dashboard Metrics*/
+
+.dashboard-metrics {
+  background-color: transparent;
+}

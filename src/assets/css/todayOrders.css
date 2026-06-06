@@ -1,0 +1,98 @@
+.dashboard-today-orders {
+  width: 50%;
+
+  border: 1px solid #7bb518;
+  border-radius: 16px;
+
+  padding: 24px;
+
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.today-orders-header {
+  margin-bottom: 20px;
+}
+
+.today-orders-row {
+  width: 100%;
+
+  overflow-y: scroll;
+  height: 215px;
+}
+
+.today-orders-row > .today-order {
+  width: 100%;
+  height: 80px;
+
+  font-size: 0.9rem;
+
+  gap: 1rem;
+  padding: 1.5rem 0rem 2rem 0rem;
+
+  border-bottom: 1px solid #dee8d1;
+}
+
+.today-order:hover {
+  background: #f8fafc;
+  cursor: pointer;
+}
+
+.today-order > .order-image-container {
+  width: 48px;
+  height: 45px;
+
+  border-radius: 8px;
+  overflow: hidden;
+
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.order-image-container > .order-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.order-meta > .order-name {
+  color: #000;
+}
+
+.order-currency_status {
+  gap: 0.5rem;
+}
+
+.order-currency_status > .order-price {
+  color: #000;
+}
+
+.order-currency_status > .order-status {
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.pending {
+  background: #fcece3;
+  color: #fc6405;
+}
+
+.preparing {
+  background: #e6f7eb;
+  color: #2cc74d;
+}
+
+.completed {
+  background: #eaf7d8;
+  color: #4d7c0f;
+}
+
+.cancelled {
+  background: #fee2e2;
+  color: #dc2626;
+}
