@@ -8,7 +8,7 @@ const HomeImageBox = () => {
   return (
     <>
       <div className="row inner-section-wrapper">
-        {HomeImageBoxArr.map(({ img, name, price }, ind) => (
+        {HomeImageBoxArr.map(({ img, name, price, description }, ind) => (
           <div className="col-lg-3 col-md-6 col-sm-6 m-b30" key={ind}>
             <div
               onMouseEnter={() => {
@@ -26,12 +26,12 @@ const HomeImageBox = () => {
                 <h5 className="dz-title">
                   <Link to="/our-menu-1">{name}</Link>
                 </h5>
-                <p>Lorem ipsum dolor sit amet, dipiscing elit, sed</p>
+                <p>{description}</p>
               </div>
               <div className="dz-hover-content">
                 <div className="dz-info">
                   <h5 className="dz-title mb-0">
-                    <Link to="/our-menu-1">Pasta</Link>
+                    <Link to="/our-menu-1">{name}</Link>
                   </h5>
                   <span className="dz-price">{price}</span>
                 </div>
@@ -46,7 +46,7 @@ const HomeImageBox = () => {
           </div>
         ))}
         <div className="col-12 text-center m-t10">
-          <Link to="/our-menu-2" className="btn btn-md btn-primary btn-hover-1">
+          <Link to="/our-menu-4" className="btn btn-md btn-primary btn-hover-1">
             <span>See All Dishes</span>
           </Link>
         </div>

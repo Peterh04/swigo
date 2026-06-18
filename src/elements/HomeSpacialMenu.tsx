@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import { HomeSpacialMenunArr } from "./JsonData";
 
 const HomeSpacialMenu = () => {
-  const [addActive, setActive] = useState<number>(1);
+  const [addActive, setActive] = useState<number>(0);
   return (
     <>
       <div className="row">
-        {HomeSpacialMenunArr.map(({ name, price, img }, ind) => (
+        {HomeSpacialMenunArr.map(({ name, price, img, description }, ind) => (
           <div
             className="col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp"
             key={ind}
@@ -27,7 +27,7 @@ const HomeSpacialMenu = () => {
                 <h4 className="dz-title">
                   <Link to="/product-detail">{name}</Link>
                 </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                <p>{description}</p>
                 <h5 className="dz-price text-primary">{price}</h5>
                 <Link to="/shop-cart" className="btn btn-primary btn-hover-2">
                   Add To Cart

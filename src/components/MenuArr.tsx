@@ -24,7 +24,7 @@ export const MenuArr = [
           { children: "Services", to: "/services" },
           { children: "Service Detail", to: "/service-detail" },
           // { children: "Error 404", to: "/error-404" },
-          // { children: "Coming Soon", to: "/coming-soon" },
+          // { chi  ldren: "Coming Soon", to: "/coming-soon" },
           // { children: "Under Maintenance", to: "/under-maintenance" },
         ],
       },

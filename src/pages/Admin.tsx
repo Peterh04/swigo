@@ -6,6 +6,7 @@ import DashboardPopularOrders from "../components/DashboardPopularOrders";
 import DashboardRecentComments from "../components/DashboardRecentComments";
 import AdminSideBar from "../components/AdminSideBar";
 import AdminTopBar from "../components/AdminTopBar";
+// import DashboardBookingsDetailed from "../components/DashboardBookingsLongDetailed.tsx";
 
 const Admin = (): JSX.Element => {
   return (

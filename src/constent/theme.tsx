@@ -14,10 +14,10 @@ import main_slide_thumb_pic3 from "../assets/images/main-slider/slider1/thumb/pi
 import background_pic2 from "../assets/images/background/pic2.png";
 import background_pic3 from "../assets/images/background/pic3.png";
 import background_pic4 from "../assets/images/background/pic4.png";
-import gallery_small_pic1 from "../assets/images/gallery/small/pic1.jpg";
-import gallery_small_pic2 from "../assets/images/gallery/small/pic2.jpg";
-import gallery_small_pic3 from "../assets/images/gallery/small/pic3.jpg";
-import gallery_small_pic4 from "../assets/images/gallery/small/pic4.jpg";
+import gallery_small_pic1 from "../assets/images/gallery/small/LADENIA PIZZA.png";
+import gallery_small_pic2 from "../assets/images/gallery/small/CHICKEN BIRIYANI.png";
+import gallery_small_pic3 from "../assets/images/gallery/small/BACON SALAD.png";
+import gallery_small_pic4 from "../assets/images/gallery/small/PENNE CARBONARA.png";
 import gallery_small_pic5 from "../assets/images/gallery/small/pic5.jpg";
 import gallery_small_pic6 from "../assets/images/gallery/small/pic6.jpg";
 import gallery_small_pic7 from "../assets/images/gallery/small/pic7.jpg";
@@ -218,6 +218,45 @@ import switcher_large_pt4 from "../assets/images/switcher/large/pattern/pt4.jpg"
 import switcher_large_pt5 from "../assets/images/switcher/large/pattern/pt5.jpg";
 import switcher_large_pt6 from "../assets/images/switcher/large/pattern/pt6.jpg";
 import switcher_large_pt7 from "../assets/images/switcher/large/pattern/pt7.jpg";
+
+import chicken_sandwich from "../assets/images/menu-small/chicken_sandwich.png";
+import Steak_sandwich from "../assets/images/menu-small/Steak_sandwich.png";
+import avocado_melt_sandwich from "../assets/images/menu-small/avocado_melt_sandwich.png";
+import chicken_wrap from "../assets/images/menu-small/chicken_wrap.png";
+import mexican_wrap from "../assets/images/menu-small/mexican_wrap.png";
+import quesadilla from "../assets/images/menu-small/quesadilla.png";
+import greek_wrap from "../assets/images/menu-small/greek_wrap.png";
+import chicken_burger from "../assets/images/menu-small/chicken_burger.png";
+import beef_burger from "../assets/images/menu-small/beef_burger.png";
+import margherita_pizza from "../assets/images/menu-small/margherita_pizza.png";
+import chicken_pollo_pizza from "../assets/images/menu-small/chicken_pollo_pizza.png";
+import hawaiian_pizza from "../assets/images/menu-small/hawaiian_pizza.png";
+import ladenia_pizza from "../assets/images/menu-small/ladenia_pizza.png";
+import chicken_caesar_salad from "../assets/images/menu-small/chicken_caesar_salad.png";
+import greek_salad from "../assets/images/menu-small/greek_salad.png";
+import cobb_salad from "../assets/images/menu-small/cobb_salad.png";
+import chicken_biriyani_rice from "../assets/images/menu-small/chicken_biriyani_rice.png";
+import pilawo_rice from "../assets/images/menu-small/pilawo_rice.png";
+import coconut_rice from "../assets/images/menu-small/coconut_rice.png";
+import mac_n_cheese from "../assets/images/menu-small/mac_n_cheese.png";
+import grilled_tilapia_fillet from "../assets/images/menu-small/grilled_tilapia_fillet.png";
+import coconut_fish_fillet from "../assets/images/menu-small/coconut_fish_fillet.png";
+import whole_tilapia_fish from "../assets/images/menu-small/whole_tilapia_fish.png";
+import chicken_curry from "../assets/images/menu-small/chicken_curry.png";
+import vegetable_curry from "../assets/images/menu-small/vegetable_curry.png";
+import fish_curry from "../assets/images/menu-small/fish_curry.png";
+import grilled_beef_steak from "../assets/images/menu-small/grilled_beef_steak.png";
+import beef_brochette from "../assets/images/menu-small/beef_brochette.png";
+import pork_ribs from "../assets/images/menu-small/pork_ribs.png";
+import french_fries from "../assets/images/menu-small/french_fries.png";
+import ice_cream_scoop from "../assets/images/menu-small/ice_cream_scoop.png";
+import pancakes_and_crepes from "../assets/images/menu-small/pancakes_and_crepes.png";
+import mango_smoothie from "../assets/images/menu-small/mango_smoothie.png";
+import banana_smoothie from "../assets/images/menu-small/banana_smoothie.png";
+import milk_shake from "../assets/images/menu-small/milk_shake.png";
+import watermelon_juice from "../assets/images/menu-small/watermelon_juice.png";
+import passion_juice from "../assets/images/menu-small/passion_juice.png";
+import tropical_orange from "../assets/images/menu-small/tropical_orange.png";
 
 export const IMAGES = {
   logo: logo,
@@ -439,4 +478,45 @@ export const IMAGES = {
   switcher_large_pt5: switcher_large_pt5,
   switcher_large_pt6: switcher_large_pt6,
   switcher_large_pt7: switcher_large_pt7,
+
+  //Menu
+  chicken_sandwich: chicken_sandwich,
+  Steak_sandwich: Steak_sandwich,
+  avocado_melt_sandwich: avocado_melt_sandwich,
+  chicken_wrap: chicken_wrap,
+  mexican_wrap: mexican_wrap,
+  quesadilla: quesadilla,
+  greek_wrap: greek_wrap,
+  chicken_burger: chicken_burger,
+  beef_burger: beef_burger,
+  margherita_pizza: margherita_pizza,
+  chicken_pollo_pizza: chicken_pollo_pizza,
+  hawaiian_pizza: hawaiian_pizza,
+  ladenia_pizza: ladenia_pizza,
+  chicken_caesar_salad: chicken_caesar_salad,
+  greek_salad: greek_salad,
+  cobb_salad: cobb_salad,
+  chicken_biriyani_rice: chicken_biriyani_rice,
+  pilawo_rice: pilawo_rice,
+  coconut_rice: coconut_rice,
+  mac_n_cheese: mac_n_cheese,
+  grilled_tilapia_fillet,
+  grilled_tilapia_fillet,
+  coconut_fish_fillet: coconut_fish_fillet,
+  whole_tilapia_fish: whole_tilapia_fish,
+  chicken_curry: chicken_curry,
+  vegetable_curry: vegetable_curry,
+  fish_curry: fish_curry,
+  grilled_beef_steak: grilled_beef_steak,
+  beef_brochette: beef_brochette,
+  pork_ribs: pork_ribs,
+  french_fries: french_fries,
+  ice_cream_scoop: ice_cream_scoop,
+  pancakes_and_crepes: pancakes_and_crepes,
+  mango_smoothie: mango_smoothie,
+  banana_smoothie: banana_smoothie,
+  milk_shake: milk_shake,
+  watermelon_juice: watermelon_juice,
+  passion_juice: passion_juice,
+  tropical_orange: tropical_orange,
 };

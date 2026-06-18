@@ -847,7 +847,10 @@ progress {
   line-height: 1.2;
 }
 
-
+.logo_cas {
+  width: 1.5rem;
+  height: 1.5rem;
+}
 @media (min-width: 1200px) {
   .display-1 {
     font-size: 5rem;
@@ -24319,7 +24322,7 @@ ul a.rsswidget:hover {
   transition: all 0.5s;
   display: flex;
   flex-direction: column;
-  height: 160px;
+  height: 200px;
 }
 .dz-img-box.style-4::before {
   content: "";

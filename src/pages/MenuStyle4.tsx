@@ -21,6 +21,7 @@ interface MenuFile {
   categery: string;
   name: string;
   price: string;
+  short_description: string;
 }
 
 const MenuStyle4 = () => {
@@ -108,7 +109,7 @@ const MenuStyle4 = () => {
           </div>
 
           <ul id="masonry" className="row">
-            {data.map(({ img, name, price }, ind) => (
+            {data.map(({ img, name, price, short_description }, ind) => (
               <li
                 className="card-container col-xl-3 col-lg-4 col-md-6 m-b30 "
                 style={{ transition: "all .2s" }}
@@ -135,7 +136,7 @@ const MenuStyle4 = () => {
                       <h5 className="title">
                         <Link to="/product-detail">{name}</Link>
                       </h5>
-                      <p>Delicious and Spicy</p>
+                      <p>{short_description}</p>
                     </div>
                   </div>
                   <div className="menu-footer">

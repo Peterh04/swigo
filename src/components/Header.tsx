@@ -51,7 +51,7 @@ const Header = () => {
                   <>
                     {scroll ? (
                       <Link to="/" className="anim-logo">
-                        <img src={IMAGES.logo} alt="/" />
+                        <img src={IMAGES.logo} alt="/" className="logo_cas" />
                       </Link>
                     ) : (
                       <Link to="/" className="anim-logo-white">

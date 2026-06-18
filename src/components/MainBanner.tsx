@@ -86,7 +86,7 @@ const MainBanner = () => {
                 <img src={IMAGES.main_slide_img2} className="img3" alt="/" />
               </div>
             </SwiperSlide>
-          )
+          ),
         )}
       </Swiper>
       <div className="container">
@@ -106,14 +106,14 @@ const MainBanner = () => {
               nextEl: ".thumb-button-next",
             }}
           >
-            {MainBannerArr.map(({ imgThumb }, ind) => (
+            {MainBannerArr.map(({ title, imgThumb }, ind) => (
               <SwiperSlide className="swiper-slide" key={ind}>
                 <div className="food-card">
                   <div className="dz-media">
                     <img src={imgThumb} alt="/" />
                   </div>
                   <div className="dz-content">
-                    <h5 className="title">BreakFast</h5>
+                    <h5 className="title">{title}</h5>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit
                     </p>
