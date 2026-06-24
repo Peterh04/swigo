@@ -258,6 +258,22 @@ import watermelon_juice from "../assets/images/menu-small/watermelon_juice.png";
 import passion_juice from "../assets/images/menu-small/passion_juice.png";
 import tropical_orange from "../assets/images/menu-small/tropical_orange.png";
 
+import piz__400 from "../assets/images/menu-small/piz.jpg";
+import shake_400 from "../assets/images/menu-small/shake.jpg";
+import strips_400 from "../assets/images/menu-small/strips.jpg";
+import pasta_400 from "../assets/images/menu-small/pasta.jpg";
+import pasta_nd_400 from "../assets/images/menu-small/pasta2.jpg";
+import burger_400 from "../assets/images/menu-small/burger.jpg";
+
+import p1 from "../assets/images/menu-small/p1.jpg";
+import p2 from "../assets/images/menu-small/p2.jpg";
+import p3 from "../assets/images/menu-small/p3.jpg";
+import p4 from "../assets/images/menu-small/p4.jpg";
+import p5 from "../assets/images/menu-small/p5.jpg";
+import p6 from "../assets/images/menu-small/p6.jpg";
+
+// import stir from "../assets/images/menu-small/stir.jpg";
+
 export const IMAGES = {
   logo: logo,
   logo2: logo2,
@@ -500,8 +516,7 @@ export const IMAGES = {
   pilawo_rice: pilawo_rice,
   coconut_rice: coconut_rice,
   mac_n_cheese: mac_n_cheese,
-  grilled_tilapia_fillet,
-  grilled_tilapia_fillet,
+  grilled_tilapia_fillet: grilled_tilapia_fillet,
   coconut_fish_fillet: coconut_fish_fillet,
   whole_tilapia_fish: whole_tilapia_fish,
   chicken_curry: chicken_curry,
@@ -519,4 +534,18 @@ export const IMAGES = {
   watermelon_juice: watermelon_juice,
   passion_juice: passion_juice,
   tropical_orange: tropical_orange,
+
+  piz_400: piz__400,
+  shake_400: shake_400,
+  strips_400: strips_400,
+  pasta_400: pasta_400,
+  pasta_nd_400: pasta_nd_400,
+  burger_400: burger_400,
+
+  p1: p1,
+  p2: p2,
+  p3: p3,
+  p4: p4,
+  p5: p5,
+  p6: p6,
 };

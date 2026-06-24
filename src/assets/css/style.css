@@ -848,8 +848,8 @@ progress {
 }
 
 .logo_cas {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1rem !important;
+  height: 1rem !important;
 }
 @media (min-width: 1200px) {
   .display-1 {
@@ -16926,7 +16926,7 @@ section {
 .anim-logo,
 .anim-logo-white {
   position: relative;
-  padding-top: 5px;
+  padding-top: 0px;
   display: inline-block;
 }
 .anim-logo:after,
@@ -16940,9 +16940,10 @@ section {
   height: 12px;
   width: 38px;
   position: absolute;
-  top: 8px;
+  top: 0px;
   left: 3px;
   background-repeat: no-repeat;
+  display: none;
 }
 @media only screen and (max-width: 767px) {
   .anim-logo:after,
@@ -17061,6 +17062,16 @@ section {
   > li
   > a {
   color: #fff;
+}
+
+.anim-logo-white img {
+  width: 100px;
+  height: 100px;
+}
+
+.anim-logo img {
+  width: 120px;
+  height: 80px;
 }
 @media only screen and (max-width: 991px) {
   .site-header.style-1

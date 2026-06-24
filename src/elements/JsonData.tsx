@@ -8,7 +8,10 @@ export const MainBannerArr = [
     title: "Breakfast",
     title2: "Best",
     title3: "Quality Food",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    text: "Freshly prepared breakfast featuring a variety of classic and wholesome options,from warm pastries and eggs made your way to fresh fruit, hearty favorites, and freshly brewed coffee to start your day right.",
+    time: "7:00AM - 11:00AM",
+    imgSrc:
+      "https://kazi-yetu.com/cdn/shop/files/HibiscusStarTea.webp?v=1769687601&width=3248",
   },
   {
     img: IMAGES.main_slide_pic1,
@@ -17,7 +20,10 @@ export const MainBannerArr = [
     title: "Lunch ",
     title2: "Meets",
     title3: "Best Passion",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    text: "Fresh, flavorful lunch options made with quality ingredients, perfect for a satisfying midday meal.",
+    time: "11:00AM - 5:00PM",
+    imgSrc:
+      "https://davidslarder.com.au/wp-content/uploads/2020/11/Pork_USA_Ribs.jpg",
   },
   {
     img: IMAGES.main_slide_pic1,
@@ -26,7 +32,10 @@ export const MainBannerArr = [
     title: "Dinner",
     title2: "And",
     title3: "Tasty Drinks",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    text: "Elegant, freshly prepared dinner dishes served in a warm and inviting atmosphere.",
+    time: "5:00PM - 11:00PM",
+    imgSrc:
+      "https://www.bbassets.com/media/uploads/p/l/40369196_1-qmin-cheesy-chicken-tikka-quesadilla.jpg",
   },
 ];
 
@@ -75,7 +84,9 @@ export const HomeImageBoxArr = [
     title: "Restaurant",
     description:
       "Classic macron with minced meat sauce, topped with parmesan cheese.",
+    imgSrc: IMAGES.pasta_400,
   },
+
   {
     price: "UGX 19,000.00",
     name: "Milk Shake",
@@ -84,16 +95,18 @@ export const HomeImageBoxArr = [
     icon: "flaticon-martini",
     title: "Bar",
     description: "Rich, creamy, and perfectly blended for a refreshing treat",
+    imgSrc: IMAGES.shake_400,
   },
   {
     price: "UGX 65,000.00",
     name: "Stir Fry Beef Strips",
     img: IMAGES.gallery_grid_pic4,
     img2: IMAGES.gallery_grid_pic3,
-    icon: "flaticon-coffee-cup",
-    title: "Cafe",
+    icon: "flaticon-restaurant",
+    title: "Restaurant",
     description:
       "Tender sliced beef wok-fried with vegetables and aromatic spices.",
+    imgSrc: IMAGES.pasta_400,
   },
   {
     price: "UGX 40,000.00",
@@ -104,64 +117,64 @@ export const HomeImageBoxArr = [
     title: "Dessert",
     description:
       "A delicious blend of ham, pineapple, and melted cheese on freshly baked dough.",
+    imgSrc: IMAGES.piz_400,
   },
 ];
 
 export const MenuSliderArr = [
-  { img: IMAGES.gellry_grid2_pic1, name: "Burger", price: "$20.00" },
-  { img: IMAGES.gellry_grid2_pic2, name: "Pasta", price: "$10.00" },
-  { img: IMAGES.gellry_grid2_pic3, name: "Tandoor", price: "$15.00" },
-  { img: IMAGES.gellry_grid2_pic4, name: "Dal Fry", price: "$65.00" },
-  { img: IMAGES.gellry_grid2_pic1, name: "Burger", price: "$20.00" },
+  { img: IMAGES.pasta_nd_400, name: "Burger", price: "$20.00" },
+  { img: IMAGES.strips_400, name: "Pasta", price: "$10.00" },
+  { img: IMAGES.burger_400, name: "Tandoor", price: "$15.00" },
+  { img: IMAGES.pasta_400, name: "Dal Fry", price: "$65.00" },
 ];
 
 export const TestymonialArr = [
   {
     name: "John Doe",
     skill: "Food Expert",
-    img: IMAGES.testiminial_small_pic1,
+    img: IMAGES.p1,
   },
   {
     name: "Jolly Roy",
     skill: "Food Tester",
-    img: IMAGES.testiminial_small_pic2,
+    img: IMAGES.p2,
   },
   {
     name: "Thomas Hed",
     skill: "Food Expert",
-    img: IMAGES.testiminial_small_pic3,
+    img: IMAGES.p3,
   },
   {
     name: "Kally Mint",
     skill: "Food Expert",
-    img: IMAGES.testiminial_small_pic4,
+    img: IMAGES.p4,
   },
   {
     name: "Thomas Hed",
     skill: "Food Expert",
-    img: IMAGES.testiminial_small_pic5,
+    img: IMAGES.p5,
   },
   {
     name: "Kally Mint",
     skill: "Food Expert",
-    img: IMAGES.testiminial_small_pic6,
+    img: IMAGES.p6,
   },
 ];
 
 export const TeamCaroselArr = [
-  { img: IMAGES.image_team_pic1, name: "John Doe", position: "Senior Chef" },
+  { img: IMAGES.p6, name: "John Doe", position: "Senior Chef" },
   {
-    img: IMAGES.image_team_pic2,
+    img: IMAGES.p1,
     name: "Jemy Carline",
     position: "Junior Chef",
   },
-  { img: IMAGES.image_team_pic3, name: "Cotlin Care", position: "Senior Chef" },
+  { img: IMAGES.p5, name: "Cotlin Care", position: "Senior Chef" },
   {
-    img: IMAGES.image_team_pic4,
+    img: IMAGES.p2,
     name: "Sarah Albert",
     position: "Senior Chef",
   },
-  { img: IMAGES.image_team_pic1, name: "John Doe", position: "Senior Chef" },
+  { img: IMAGES.p3, name: "John Doe", position: "Senior Chef" },
 ];
 
 export const OurBlogArr = [

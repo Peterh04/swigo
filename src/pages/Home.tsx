@@ -89,17 +89,10 @@ const Home = () => {
         </div>
         <TeamCarosel />
       </section>
-      <section className="content-inner-1 overflow-hidden">
-        <div className="container">
-          <div className="section-head text-center">
-            <h2 className="title wow flipInX">News & blog</h2>
-          </div>
-          <OurBlog />
-        </div>
-      </section>
+
       <div className="map-iframe style-1">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d244934.17139458598!2d75.27787773507539!3d25.125368923263647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1678086292169!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.750737691179!2d31.731052879174243!3d-0.33348729879490846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d78f44988d35c1%3A0xa39473e290c1d601!2sCasa%20Avi%20Coffee%20House!5e0!3m2!1sen!2ske!4v1782292465450!5m2!1sen!2ske"
           width="600"
           height="450"
           style={{ border: 0 }}

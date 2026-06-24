@@ -97,18 +97,11 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="flaticon-placeholder"></i>
-                      <p>
-                        1247/Plot No. 39, 15th Phase, Colony, Kkatpally,
-                        Hyderabad
-                      </p>
+                      <p>Alexander Road, Masaka, Uganda</p>
                     </li>
                     <li>
                       <i className="flaticon-telephone"></i>
-                      <p>
-                        +91 987-654-3210
-                        <br />
-                        +91 123-456-7890
-                      </p>
+                      <p>+256 742 047 106</p>
                     </li>
                     <li>
                       <i className="flaticon-email-1"></i>
@@ -192,7 +185,7 @@ const Footer = () => {
           <div className="footer-bottom">
             <div className="row">
               <div className="col-xl-6 col-md-6 text-md-start">
-                <p>Copyright 2023 All rights reserved.</p>
+                <p>Copyright 2026 All rights reserved.</p>
               </div>
               <div className="col-xl-6 col-md-6 text-md-end">
                 <span className="copyright-text">
@@ -205,8 +198,8 @@ const Footer = () => {
                     }}
                   ></span>{" "}
                   by{" "}
-                  <Link to="https://dexignzone.com/" target="_blank">
-                    DexignZone
+                  <Link to="https://github.com/Peterh04" target="_blank">
+                    Peter
                   </Link>
                 </span>
               </div>
