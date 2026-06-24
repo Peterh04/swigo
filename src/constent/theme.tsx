@@ -222,7 +222,7 @@ import switcher_large_pt7 from "../assets/images/switcher/large/pattern/pt7.jpg"
 import chicken_sandwich from "../assets/images/menu-small/chicken_sandwich.png";
 import Steak_sandwich from "../assets/images/menu-small/Steak_sandwich.png";
 import avocado_melt_sandwich from "../assets/images/menu-small/avocado_melt_sandwich.png";
-import chicken_wrap from "../assets/images/menu-small/chicken_wrap.png";
+import chicken_wrap from "../assets/images/menu-small/avocado_melt_sandwich.png";
 import mexican_wrap from "../assets/images/menu-small/mexican_wrap.png";
 import quesadilla from "../assets/images/menu-small/quesadilla.png";
 import greek_wrap from "../assets/images/menu-small/greek_wrap.png";
