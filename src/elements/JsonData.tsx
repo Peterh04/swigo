@@ -765,7 +765,7 @@ export const MenuStyle4Arr = [
   },
   {
     categery: "ALL SALAD",
-    img: IMAGES.spaghetti_bolognese,
+    img: IMAGES.pasta_400,
     name: "Spaghetti Bolognese",
     price: "UGX 30,000",
     short_description: "Rich and Savory",
