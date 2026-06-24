@@ -9,45 +9,43 @@ const HomeImageBox = () => {
   return (
     <>
       <div className="row inner-section-wrapper">
-        {HomeImageBoxArr.map(
-          ({ img, name, price, description, imgSrc }, ind) => (
-            <div className="col-lg-3 col-md-6 col-sm-6 m-b30" key={ind}>
-              <div
-                onMouseEnter={() => {
-                  setActive(ind);
-                }}
-                className={`dz-img-box style-3 box-hover ${
-                  addActive === ind ? "active" : ""
-                }`}
-              >
-                <div className="dz-media">
-                  <img src={imgSrc} alt="/" />
-                </div>
-                <span className="dz-tag">TOP SELLER</span>
-                <div className="dz-content">
-                  <h5 className="dz-title">
+        {HomeImageBoxArr.map(({ name, price, description, imgSrc }, ind) => (
+          <div className="col-lg-3 col-md-6 col-sm-6 m-b30" key={ind}>
+            <div
+              onMouseEnter={() => {
+                setActive(ind);
+              }}
+              className={`dz-img-box style-3 box-hover ${
+                addActive === ind ? "active" : ""
+              }`}
+            >
+              <div className="dz-media">
+                <img src={imgSrc} alt="/" />
+              </div>
+              <span className="dz-tag">TOP SELLER</span>
+              <div className="dz-content">
+                <h5 className="dz-title">
+                  <Link to="/our-menu-1">{name}</Link>
+                </h5>
+                <p>{description}</p>
+              </div>
+              <div className="dz-hover-content">
+                <div className="dz-info">
+                  <h5 className="dz-title mb-0">
                     <Link to="/our-menu-1">{name}</Link>
                   </h5>
-                  <p>{description}</p>
+                  <span className="dz-price">{price}</span>
                 </div>
-                <div className="dz-hover-content">
-                  <div className="dz-info">
-                    <h5 className="dz-title mb-0">
-                      <Link to="/our-menu-1">{name}</Link>
-                    </h5>
-                    <span className="dz-price">{price}</span>
-                  </div>
-                  <Link
-                    to="/shop-cart"
-                    className="btn btn-cart btn-white text-primary btn-square"
-                  >
-                    <i className="flaticon-shopping-cart"></i>
-                  </Link>
-                </div>
+                <Link
+                  to="/shop-cart"
+                  className="btn btn-cart btn-white text-primary btn-square"
+                >
+                  <i className="flaticon-shopping-cart"></i>
+                </Link>
               </div>
             </div>
-          ),
-        )}
+          </div>
+        ))}
         <div className="col-12 text-center m-t10">
           <Link to="/our-menu-4" className="btn btn-md btn-primary btn-hover-1">
             <span>See All Dishes</span>

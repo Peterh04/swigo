@@ -1,7 +1,6 @@
 import { useContext, useEffect, useMemo } from "react";
 import MainBanner from "../components/MainBanner";
 import MenuSlider from "../components/MenuSlider";
-import OurBlog from "../components/OurBlog";
 import TeamCarosel from "../components/TeamCarosel";
 import Testymonial from "../components/Testymonial";
 import { IMAGES } from "../constent/theme";

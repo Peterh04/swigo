@@ -106,21 +106,19 @@ const MainBanner = () => {
               nextEl: ".thumb-button-next",
             }}
           >
-            {MainBannerArr.map(
-              ({ title, imgThumb, text, time, imgSrc }, ind) => (
-                <SwiperSlide className="swiper-slide" key={ind}>
-                  <div className="food-card">
-                    <div className="dz-media">
-                      <img src={imgSrc} alt="/" />
-                    </div>
-                    <div className="dz-content">
-                      <h5 className="title">{title}</h5>
-                      <p>{time}</p>
-                    </div>
+            {MainBannerArr.map(({ title, time, imgSrc }, ind) => (
+              <SwiperSlide className="swiper-slide" key={ind}>
+                <div className="food-card">
+                  <div className="dz-media">
+                    <img src={imgSrc} alt="/" />
                   </div>
-                </SwiperSlide>
-              ),
-            )}
+                  <div className="dz-content">
+                    <h5 className="title">{title}</h5>
+                    <p>{time}</p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
           <div className="thumb-button-prev btn-prev-1">
             <i className="fa-solid fa-angle-left"></i>
