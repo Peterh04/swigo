@@ -3,7 +3,6 @@ import { IMAGES } from "../constent/theme";
 import Menu from "./Menu";
 import { useContext, useEffect, useRef, useState } from "react";
 import { Context } from "../context/AppContext";
-import logo5 from "../assets/images/logo5.png";
 
 const Header = () => {
   const { headerClass, setShowSignInForm, headerSidebar, setHeaderSidebar } =
@@ -52,17 +51,17 @@ const Header = () => {
                   <>
                     {scroll ? (
                       <Link to="/" className="anim-logo">
-                        <img src={logo5} alt="/" className="logo_cas" />
+                        <img src={IMAGES.logo5} alt="/" className="logo_cas" />
                       </Link>
                     ) : (
                       <Link to="/" className="anim-logo-white">
-                        <img src={logo5} alt="/" />
+                        <img src={IMAGES.logo5} alt="/" />
                       </Link>
                     )}
                   </>
                 ) : (
                   <Link to="/" className="anim-logo">
-                    <img src={logo5} alt="/" />
+                    <img src={IMAGES.logo5} alt="/" />
                   </Link>
                 )}
               </div>

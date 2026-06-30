@@ -271,12 +271,14 @@ import p3 from "../assets/images/menu-small/p3.jpg";
 import p4 from "../assets/images/menu-small/p4.jpg";
 import p5 from "../assets/images/menu-small/p5.jpg";
 import p6 from "../assets/images/menu-small/p6.jpg";
+import logo5 from "../assets/images/logo5.png";
 
 // import stir from "../assets/images/menu-small/stir.jpg";
 
 export const IMAGES = {
   logo: logo,
   logo2: logo2,
+  logo5: logo5,
   shop_pic2: shop_pic2,
   shop_pic3: shop_pic3,
   main_slide_pic1: main_slide_pic1,
